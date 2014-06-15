@@ -22,7 +22,6 @@ def main():
         n = int(raw_input('Entre com um dígito: '))
         print 'fibonacci(%i) = %i' % (n, fibonacci(n))
     except ValueError:
-
         print 'Somente dígitos são aceitos.'
         main()
 
