@@ -22,7 +22,7 @@ def main():
         n = int(raw_input('Entre com um número inteiro: '))
         print 'fibonacci(%i) = %i' % (n, fibonacci(n))
     except ValueError:
-        print 'Somente números inteiros são aceitos.'
+        print 'Somente números inteiros são aceitos!'
         main()
 
 if __name__ == '__main__':
