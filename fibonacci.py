@@ -19,8 +19,8 @@ def fibonacci(n):
 
 def main():
     try:
-        number = int(raw_input('Entre com um dígito: '))
-        print 'fibonacci(%i) = %i' % (number, fibonacci(number))
+        n = int(raw_input('Entre com um dígito: '))
+        print 'fibonacci(%i) = %i' % (n, fibonacci(n))
     except ValueError:
 
         print 'Somente dígitos são aceitos.'
