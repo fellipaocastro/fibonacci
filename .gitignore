@@ -55,4 +55,3 @@ docs/_build/
 *~
 *.sqlite3
 *.DS_Store
-ping_pong_output
