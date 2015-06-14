@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
+from __future__ import absolute_import, unicode_literals
 import unittest
 
-from fibonacci import fibonacci
+from run import fibonacci
 
 
 class FibonacciTestCase(unittest.TestCase):

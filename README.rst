@@ -3,23 +3,30 @@ fibonacci
 
 Fibonacci
 
-Installation
-------------
+Menu
+----
 
 .. code-block:: bash
 
-    $ pip install -r requirements.txt
+    $ ./manage.sh
+
+Setup
+-----
+
+.. code-block:: bash
+
+    $ ./manage.sh setup
 
 Usage
 -----
 
 .. code-block:: bash
 
-    $ ./fibonacci.py
+    $ ./manage.sh run
 
 Test
 -----
 
 .. code-block:: bash
 
-    $ ./test.py
+    $ ./manage.sh test

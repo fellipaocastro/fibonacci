@@ -1,5 +1,5 @@
-#!/usr/bin/env python
 # coding: utf-8
+from __future__ import absolute_import, unicode_literals
 
 
 # def fibonacci(number):
@@ -15,15 +15,3 @@ def fibonacci(number):
     if number not in memo:
         memo[number] = fibonacci(number - 1) + fibonacci(number - 2)
     return memo[number]
-
-
-def main():
-    try:
-        number = int(raw_input('Entre com um número inteiro: '))
-        print 'fibonacci(%i) = %i' % (number, fibonacci(number))
-    except ValueError:
-        print 'Somente números inteiros são aceitos!'
-        main()
-
-if __name__ == '__main__':
-    main()
