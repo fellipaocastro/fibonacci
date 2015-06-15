@@ -8,7 +8,7 @@ from fibonacci import fibonacci
 def main():
     try:
         number = int(raw_input('Entre com um número inteiro: '))
-        print 'fibonacci({0}) = {1}'.format(number, fibonacci(number))
+        print 'fibonacci({}) = {}'.format(number, fibonacci(number))
     except ValueError:
         print 'Somente números inteiros são aceitos!'
         main()
